@@ -4,9 +4,40 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #083B4C;
+}
+
+h1{
+    font-size: 80px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+
 .box{
+    display: flex;
+    align-items: center;
     justify-content: center;
     border: 1px solid black;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skyblue{
+    background-color: #1389B2;
+}
+
+.rose{
+    background-color: #F0466F;
+}
+
+.green{
+    background-color: #0CD6A1;
+}
+
+.yellow{
+    background-color: #FFD166;
 }
